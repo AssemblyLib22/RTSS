@@ -1,8 +1,7 @@
 # RTSS.py (Real-Time Scription & Summarization)
 ## Introduction
+![image](https://github.com/user-attachments/assets/abd8d038-db13-49d5-bda2-554d24ff333c)
 RTSS는 학습 및 복습을 위한 강의노트 생성 프로그램으로, 마이크를 통해 실시간으로 오디오 입력을 받아 Whisper를 통해 전사, BART를 통해 요약해 강의 속기록/부분요약/전체요약 이 모두 포함된 강의노트를 생성합니다.
-
-실시간 오디오 입력을 텍스트로 변환하고, 요약하여 강의 노트를 생성하는 Python 기반 도구입니다. Whisper 모델과 KoBART를 사용하여 오디오를 텍스트로 변환하고 요약합니다.
 
 ## Feature
 - 음성 입력 `sounddevice`를 사용하여 실시간으로 오디오 입력을 받아 처리.
@@ -30,3 +29,5 @@ python rtss.py
 - `exit`: 녹음을 종료하고 전체 요약을 생성합니다. `Ctrl+C` 키를 눌러도 똑같이 작동합니다
 
 ## Examples
+![image](https://github.com/user-attachments/assets/2919a76b-5f45-451b-86a8-754e8c0e597a)
+![image](https://github.com/user-attachments/assets/676eebed-9eb5-47cd-82ca-4366820464b6)
